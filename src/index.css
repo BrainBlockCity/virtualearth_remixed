@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-black text-white;
+}
+
+.mapboxgl-canvas {
+  outline: none;
+}
+
+.mapboxgl-ctrl-bottom-right,
+.mapboxgl-ctrl-bottom-left {
+  display: none;
+}
